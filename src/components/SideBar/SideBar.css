@@ -1,0 +1,6 @@
+.sidebar { 
+    position: relative;
+    background: url(/src/assets/png/bg.png);
+    background-size: 335px 100vh;
+    background-repeat: no-repeat;
+}

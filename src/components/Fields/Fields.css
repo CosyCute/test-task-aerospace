@@ -1,0 +1,17 @@
+.fields {
+    border-right: 1px solid white;
+    backdrop-filter: blur(143px);
+    /* background: url(/src/assets/png/backgroundFields.png);
+    background-repeat: no-repeat;
+    background-size: 335px 100vh; */
+}
+select{
+    height: 40px;
+    width: 200px;
+    padding-left: 10px;
+    background: transparent;
+    border: 1px solid rgba(255, 255, 255, 0.8);
+}
+option{
+    background: #000;
+}

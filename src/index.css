@@ -1,0 +1,51 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'HandelGothic TL';
+  src: url(/src/assets/fonts/0768eur.ttf);
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+*:focus {
+  outline: none;
+}
+
+body {
+  /* background: #101223; */
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.authorization {
+  font-family: "HandelGothic TL";
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), linear-gradient(180deg, rgba(0, 0, 0, 0) 82.67%, rgba(0, 0, 0, 0.2) 100%), url(./assets/png/authBG.png);
+  background-repeat: no-repeat;
+  background-size: 100vw;
+}
+
+.auth-fields {
+  background: url(/src/assets/png/authFields.png);
+  background-size: 640px 575px;
+  background-repeat: no-repeat;
+  background-position: 0px 0px;
+}
+
+.login-button{
+  background: url(/src/assets/png/login.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.mapboxgl-ctrl-bottom-right{
+  bottom: -30px;
+}
+.blur-140px{
+  backdrop-filter: blur(143px);
+}

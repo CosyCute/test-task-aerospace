@@ -1,0 +1,6 @@
+.mybutton svg{
+    filter: invert(52%) sepia(13%) saturate(760%) hue-rotate(205deg) brightness(93%) contrast(91%);
+}
+.selected svg{
+    filter: brightness(10000%);
+}
