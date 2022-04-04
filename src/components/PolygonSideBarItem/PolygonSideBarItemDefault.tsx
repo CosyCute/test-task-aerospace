@@ -1,5 +1,6 @@
 import React from 'react';
 import { useDispatch } from 'react-redux';
+import Field from './../../assets/svg/Field';
 
 const PolygonSideBarItemDefault = () => {
 
@@ -18,7 +19,7 @@ const PolygonSideBarItemDefault = () => {
     return (
         <div>
             <div className='w-300px mx-auto mt-10 flex justify-between'>
-                <div className='w-40px h-40px'><img alt="field img"/></div>
+                <div className='w-40px h-40px flex flex-col justify-center'><Field/></div>
                 <div className='flex flex-col w-120px'>
                     <input className='bg-transparent border-2' type='text' onBlur={blurHandler} onChange={inputHandler} placeholder='Введите имя' />
                     <span className='text-gray-500'>{"Культура"}</span>

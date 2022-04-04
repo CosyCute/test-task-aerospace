@@ -36,7 +36,7 @@ const Map = () => {
         if (mapContainer.current === undefined) return;
         const mapboxMap = new mapboxgl.Map({
             container: mapContainer.current || '',
-            style: 'mapbox://styles/mapbox/dark-v10',
+            style: 'mapbox://styles/mapbox/satellite-v9',
             center: center,
             zoom: zoom
         })

@@ -1,12 +1,13 @@
 import React from 'react';
 import { fieldType } from './../../types/index';
+import Field from './../../assets/svg/Field';
 
 const PolygonSideBarItem = (props: fieldType) => {
 
     return (
         <div className='mr-4'>
             <div className='w-300px mx-auto mt-10 flex justify-between'>
-                <div className='w-40px h-40px'><img alt="field img" /></div>
+                <div className='w-40px h-40px flex flex-col justify-center'><Field/></div>
                 <div className='flex flex-col w-120px'>
                     {props.main_info.name}
                     <span className='text-gray-500'>{props.main_info.culture}</span>
