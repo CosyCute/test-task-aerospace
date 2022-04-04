@@ -8,7 +8,6 @@ import PolygonSideBarItem from '../PolygonSideBarItem/PolygonSideBarItem';
 import { useDispatch, useSelector, RootStateOrAny } from 'react-redux';
 import { fieldType } from './../../types/index';
 import PolygonSideBarItemDefault from '../PolygonSideBarItem/PolygonSideBarItemDefault';
-import { Geometry } from 'geojson';
 const Fields = () => {
     const polygonName = useSelector((state: RootStateOrAny) => state.currentEditingPolygonName)
     const polygonGeo = useSelector((state: RootStateOrAny) => state.currentEditingPolygonGeo)

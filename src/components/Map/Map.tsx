@@ -1,6 +1,6 @@
-import React, { MutableRefObject, RefObject, useEffect, useRef, useState, LegacyRef } from 'react';
+import React, { useEffect, useRef, useState } from 'react';
 import { accessToken, API_KEY_OPENWEATHERMAP } from '../../config/token';
-import mapboxgl, { MapBoxZoomEvent } from 'mapbox-gl';
+import mapboxgl from 'mapbox-gl';
 import { RootStateOrAny, useSelector, useDispatch } from 'react-redux';
 import "@mapbox/mapbox-gl-draw/dist/mapbox-gl-draw.css";
 import MapboxDraw from '@mapbox/mapbox-gl-draw';

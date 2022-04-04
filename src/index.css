@@ -27,7 +27,7 @@ body {
   font-family: "HandelGothic TL";
   background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), linear-gradient(180deg, rgba(0, 0, 0, 0) 82.67%, rgba(0, 0, 0, 0.2) 100%), url(./assets/png/authBG.png);
   background-repeat: no-repeat;
-  background-size: 100vw;
+  background-size: 100vw 100vh;
 }
 
 .auth-fields {
